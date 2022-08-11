@@ -3,6 +3,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column; 
+    min-height: 100vh;
 }
 .header {
     display: flex;
@@ -73,12 +74,10 @@ a {
     padding: 8px;
 }
 .placeholder {
-    display: flex;
-    
+   display: flex;
 }
 .onepic  { 
-    max-width:100%;  
-    
+    width: 500px;
 }
 .information {
     display: flex;
@@ -123,7 +122,6 @@ a {
   padding: 70px 250px;
   margin-top: 50px;
 }
-
 .writting {
     font-size: 36px;
     font-style: italic;
@@ -169,9 +167,10 @@ a {
 }
 .copyright {
     display: flex;
-    justify-content: center;
     background-color: #1f2937;
+    justify-content: center;
     color: #e5e7eb;
     font-size: 18px;
     padding: 40px;
+    margin-top: auto;
 }
