@@ -41,13 +41,18 @@ a {
     display: flex;
     margin-top: 100px;
     margin-bottom: 0px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .maintitle {
     display: flex;
     flex-direction: column;
     gap: 10px;    
     justify-content: center;
+    min-height: 238px;
+    min-width: 500px;
 }
 .firstheader {
     display: flex;
@@ -73,11 +78,9 @@ a {
     border: none;
     padding: 8px;
 }
-.placeholder {
-   display: flex;
-}
 .onepic  { 
-    width: 500px;
+    height: 238px;
+    width: auto;
 }
 .information {
     display: flex;
